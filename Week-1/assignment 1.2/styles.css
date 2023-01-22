@@ -1,0 +1,141 @@
+body {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+  border-top:2px solid black;
+  border-right: 2px solid black;
+}
+
+nav {
+  position: absolute;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.nav-icon {
+  color: black;
+}
+
+h2 {
+  margin: 0px;
+}
+
+.top-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.player-header {
+  background-color:#483C32;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.player-header-image{
+  margin-left: 50px;
+}
+
+.player-header-container{
+  width: 100%
+}
+
+.album-details {
+  margin-left: 50px;
+  position: relative;
+}
+
+.player-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 0px;
+}
+
+.control-icon {
+  color: white;
+  margin-right: 15px;
+}
+
+.songs-list {
+  background-color: white;
+  color: black;
+  width: 97%;
+}
+
+table {
+  margin-left: 45px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.last-column{
+  width: 160px;
+  text-align: center;
+  color: blue;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+footer {
+ position: fixed;
+ bottom: 0;
+ width:100%;
+  background-color: #43689b;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  bottom: 0px;
+}
+
+.footer-main{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.footer-description{
+  margin-bottom: 10px;
+}
+
+.footer-control {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.footer-icon {
+  color: white;
+}
+
+div > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
