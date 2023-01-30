@@ -1,0 +1,51 @@
+body {
+    margin: 200px;
+  }
+  .main {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box-text {
+    width: 200px;
+    text-align: center;
+    position: relative;
+    bottom: 130px;
+    z-index: -1;
+  }
+  .box {
+    width: 100px;
+    height: 100px;
+    transition: transform 1s linear;
+    transform-style: preserve-3D;
+  }
+  .box-top-left {
+    background-color: #ff0000;
+    transform-origin: top left;
+  }
+  .main:hover .box-top-left {
+    transform: rotate(90deg);
+  }
+  .box-top-right {
+    background-color: #ffff00;
+    transform-origin: top right;
+  }
+  .main:hover .box-top-right {
+    transform: rotate(-90deg);
+  }
+  .box-bottom-left {
+    background-color: #0000ff;
+    transform-origin: bottom left;
+  }
+  .main:hover .box-bottom-left {
+    transform: rotate(-90deg);
+  }
+  .box-bottom-right {
+    background-color: #008000;
+    transform-origin: bottom right;
+  }
+  .main:hover .box-bottom-right {
+    transform: rotate(90deg);
+  }
+  
