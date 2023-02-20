@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2.1</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="body-content">
+    <header>
+        <h1>Lorem Ipsum</h1>
+        <p class="title-description">
+            "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+            "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+        </p>
+    </header>
+    <div class="main-detail">
+      <div class="detail">
+        <article>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+          <div class="detail-image">
+            <img src="./images/random-image.jpeg" width="300px" height="300px" />
+          </div>
+        </article>
+      </div>
+      <div class="detail">
+        <section>
+            <article>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+             It has survived not only five centuries, but also the leap into electronic typesetting, 
+             remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+              and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+          </p>
+          <a href="https://www.lipsum.com/feed/html">link 1</a>
+        </article>
+        <article>
+          <h2>What is Lorem Ipsum?</h2>
+          <p>
+            It is a long established fact that a reader will be distracted by the readable content of a page 
+            when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of 
+            letters, as opposed to using 'Content here, content here', making it look like readable English. 
+            Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+             and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+              Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+          </p>
+          <a href="https://www.lipsum.com/feed/html">link 2</a>
+        </article>
+        <article>
+          <h2>Why do we use it?</h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,
+             or randomised words which don't look even slightly believable.
+              If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. 
+              All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. 
+              It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. 
+            The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc
+          </p>
+          <a href="https://www.lipsum.com/feed/html">link 3</a>
+          </article>
+        </section>
+      </div>
+    </div>
+
+    <div class="signup-form">
+      <form
+        id="signup_form"
+        name="signup_form">
+        <table>
+          <tr>
+            <td><label for="first_name">Title</label></td>
+            <td>
+              <label class="radio-title">
+                <input type="radio" id="mr" name="title" value="Mr" />Mr
+              </label>
+              <label class="radio-title">
+                <input type="radio" id="mrs" name="title" value="Mrs." />Mrs
+              </label>
+              <label class="radio-title">
+                <input type="radio" id="miss" name="title" value="Miss." />Mrs
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="first_name">First name</label>
+            </td>
+            <td>
+              <input type="text" id="first_name" name="first_name" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="last_name">Last name</label></td>
+            <td>
+              <input type="text" id="last_name" name="last_name" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" name="email" required /></td>
+          </tr>
+          <tr>
+            <td><label for="phone">Phone</label></td>
+            <td>
+              <input type="tel" name="phone" required pattern="[0-9]" /><br />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="password">Password</label></td>
+            <td>
+              <input type="password" id="password" name="password" required />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="confirm_password">Confirm your password</label>
+            </td>
+            <td>
+              <input
+                type="password"
+                id="confirm_password"
+                name="confirm_password"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="country">Country:</label></td>
+            <td>
+              <select name="country" id="country" required>
+                <option value="India">India</option>
+                <option value="Canada">Canada</option>
+                <option value="Germany">Germany</option></select
+              ><br />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="checkbox" name="agree" id="agree" required />
+              <label for="agree"
+                >agree to the
+                <a href="term_cundition">terms and conditions</a></label
+              >
+            </td>
+          </tr>
+        </table>
+        <input class="btn" type="submit" value="Sign Up" />
+      </form>
+    </div>
+    </div>
+  </body>
+  <footer>
+    copyright@shubham123
+</footer>
+</html>
